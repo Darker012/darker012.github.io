@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>huuts://darker012.github.io/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Aug 2019 12:49:58 +0800</lastBuildDate>
+    
+	<atom:link href="huuts://darker012.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>博客</title>
+      <link>huuts://darker012.github.io/post/blog/</link>
+      <pubDate>Sun, 11 Aug 2019 12:49:58 +0800</pubDate>
+      
+      <guid>huuts://darker012.github.io/post/blog/</guid>
+      <description>基于hugo搭建个人博客
+1.hugo下载  [github搜索hugo,下载对应版本的二进制文件，zip结尾https://github.com/gohugoio/hugo]
+ [解压到本地（无需安装），将存放的路径添加到 环境变量 中的 系统变量]
+ [打开cmd 输入hugo version，查看是否成功]
+ [成功后，打开cmd(最好是管理员模式),输入 hugo new site myblog]
+  2.git下载  [官网下载对应安装包，然后进行安装，安装过程全部默认，安装路径自选https://git-scm.com/downloads]
+ [安装完后打开cmd,输入git,如果成功，则会出现usage:&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;..,反之，去环境变量中的系统变量中的path,查看是否配置]
+ [成功显示后 cmd中输入 git config &amp;ndash;global user.name &amp;ldquo;xxx&amp;rdquo; 有意义的名字，如你github上的用户名 git config &amp;ndash;global user.email &amp;ldquo;xxx&amp;rdquo; 有意义的名字，如你github上的邮箱 ]
+  3.选择喜欢的博客模版  [登录https://themes.gohugo.io]
+ [选择适合自己的模版，会有一条 git &amp;hellip; .git的命令，复制]
+ [cmd到你myblog的根目录,这边根目录如： C:\Windows\System32\myblog\themes]
+ [粘贴 回车]
+ [cmd到 C:\Windows\System32\myblog]
+ [输入 hugo server -t 主题名 &amp;ndash;buildDrafts]
+ [访问http://localhost:1313，查看是否成功]</description>
+    </item>
+    
+  </channel>
+</rss>
